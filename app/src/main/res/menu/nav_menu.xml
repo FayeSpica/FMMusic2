@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_list"
+            android:icon="@drawable/actionbar_music_normal"
+            android:title="播放列表" />
+        <item
+            android:id="@+id/nav_playing"
+            android:icon="@drawable/upbill"
+            android:title="正在播放" />
+        <item
+            android:id="@+id/nav_setting"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="设置" />
+        <item
+            android:id="@+id/nav_time"
+            android:icon="@drawable/music_icn_recent"
+            android:title="定时关闭" />
+    </group>
+
+    <item android:title="更多">
+        <menu>
+            <item
+                android:id="@+id/nav_about"
+                android:icon="@drawable/ic_menu_share"
+                android:title="关于" />
+            <item
+                android:id="@+id/nav_exit"
+                android:icon="@drawable/note_btn_close_white"
+                android:title="退出" />
+        </menu>
+    </item>
+
+</menu>

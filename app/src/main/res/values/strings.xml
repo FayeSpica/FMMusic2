@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">FMMusicB</string>
+    <string name="title_activity_main">MainActivity</string>
+
+    <!-- MainActivity-->
+    <string name="hint_open_drawer">hint_open_drawer</string>
+    <string name="hint_close_drawer">hint_close_drawer</string>
+</resources>
